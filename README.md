@@ -1,4 +1,4 @@
-# Deploy VueJS web app to Github pages
+# Demo using VueJS with Github pages
 
 ## Commands
 
