@@ -9,13 +9,12 @@ npm run build
 # navigate into the build output directory
 cd docs
 
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
-
 git init
+git config user.email "github-actions[bot]@ptienchuan.noreply.github.com"
+git config user.name "github-actions[bot]"
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:ptienchuan/vuejs-gh-pages.git master:gh-pages
+git push -f "https://ptienchuan:$GITHUB_TOKEN@github.com/ptienchuan/vuejs-gh-pages.git" master:gh-pages
 
 cd -

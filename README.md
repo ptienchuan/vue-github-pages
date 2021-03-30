@@ -25,7 +25,7 @@ $ npm run serve
 
 ### For Production (github pages)
 
-##### Build for development before commiting
+##### Build for development
 
 ```
 $ npm run build
