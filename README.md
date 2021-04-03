@@ -30,3 +30,5 @@ $ npm run serve
 ```
 $ npm run build
 ```
+
+Note: Every push to the `main` branch will be deployed to github pages automatically
