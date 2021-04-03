@@ -15,6 +15,6 @@ git config user.name "github-actions[bot]"
 git add -A
 git commit -m 'deploy'
 
-git push -f "https://ptienchuan:$GITHUB_TOKEN@github.com/ptienchuan/vuejs-gh-pages.git" master:gh-pages
+git push -f "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git" master:gh-pages
 
 cd -
