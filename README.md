@@ -1,4 +1,8 @@
-# Demo using VueJS with Github pages
+# VueJS - Github pages
+
+Demo VueJS deploy to Github pages
+
+[![CD](https://github.com/ptienchuan/vuejs-gh-pages/actions/workflows/cd.yml/badge.svg)](https://github.com/ptienchuan/vuejs-gh-pages/actions/workflows/cd.yml)
 
 ## Commands
 
